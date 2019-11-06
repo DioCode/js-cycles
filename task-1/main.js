@@ -1,24 +1,25 @@
 // my version
 
-// let a = parseInt(prompt("Начало диапазона"));
-// let b = parseInt(prompt("Конец диапазона"));
-// let total = 0;
+let a = parseInt(prompt("Начало диапазона"));
+let b = parseInt(prompt("Конец диапазона"));
+let total = 0;
 
-// while (a <= b) {
-//   total += a;
-//   a++;
-// }
-// alert(total) 
+while (a < b) {
+  total += a;
+  a++;
+}
+
+console.log(total)
 
 // David version
 
-let userInput = prompt('Enter 2 numbers');
-userInput = userInput.split(' ');
-let [from, to] = [+userInput[0], +userInput[1]];
+// let userInput = prompt('Enter 2 numbers');
+// userInput = userInput.split(' ');
+// let [from, to] = [+userInput[0], +userInput[1]];
 
-let sum = 0;
-for (let i = from; i < to; i++) {
-  sum += i;
-}
+// let sum = 0;
+// for (let i = from; i < to; i++) {
+//   sum += i;
+// }
 
-console.log(sum);
+// console.log(sum)
